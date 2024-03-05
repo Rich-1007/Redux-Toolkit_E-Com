@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Spinner from "../components/Spinner";
-import Products from "../components/Products";
+import Product from "../components/Product";
 
 const Home = () => {
   const API_URL = "https://fakestoreapi.com/products";
@@ -33,7 +33,7 @@ const Home = () => {
       ) : posts.length > 0 ? (
         <div>
           {posts.map((post) => (
-            <Products key={post.id} post={post} />
+            <Product key={post.id} post={post} />
           ))}
         </div>
       ) : (

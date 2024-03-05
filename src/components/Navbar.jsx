@@ -3,31 +3,28 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="bg-blue-500">
-      <div className="flex flex-row justify-between">
-
+    <div>
+      <nav className="flex  justify-between items-center h-20 max-w-6xl mx-auto">
         <NavLink to="/">
-          <div>
-            <img
-              src="src/components/Logo-png-bg.png" className="h-12"            />
+          <div className="ml-5">
+            <img src="src/components/Logo-png-bg.png" className="h-12" />
           </div>
         </NavLink>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center font-medium text-slate-100 mr-5 space-x-6">
           <NavLink to="/">
             <p>Home</p>
           </NavLink>
 
-          <NavLink to="/cart" >
+          <NavLink to="/cart">
             <div>
               <FaCartShopping />
             </div>
           </NavLink>
-
         </div>
-      </div>
+      </nav>
     </div>
-  )
+  );
 };
 
 export default Navbar;

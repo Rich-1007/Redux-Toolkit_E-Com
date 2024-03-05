@@ -4,43 +4,51 @@ import { add, remove } from "../Redux/slices/CartSlice";
 
 
 
+const Product = ({ post }) =>  {
 
-function Products({ post }) {
     const { cart } = useSelector((store) => store);
-    console.log(cart)
-    const dispatch = useDispatch();
+        const dispatch = useDispatch();
 
     const addToCart = () => {
         dispatch(add(post));
         toast.success("Item added to Cart");
-      };
+      }
       
       const removeFromCart = () => {
         dispatch(remove(post.id));
-        toast.success("Item removed from Cart");
-      };
+        toast.error("Item removed from Cart");
+      }
+
+
   return (
     <div>
       <div>
         <p>{post.title}</p>
       </div>
+      
       <div>
         <p>{post.description}</p>
       </div>
+
       <div>
         <img src={post.image} />
       </div>
-      <div>
+
+       <div>
         <p>{post.price}</p>
       </div>
 
-      { cart.length > 0 && cart.some((p) => p.id == post.id) ? (
-        <button onClick={removeFromCart}>Remove Item</button>
+      { 
+      cart.some((p) => p.id == post.id) ? 
+      (
+        <button onClick={removeFromCart}>
+          Remove Item
+          </button>
       ) : (
         <button onClick={addToCart}>Add To Cart</button>
       )}
     </div>
   );
-}
+};
 
-export default Products;
+export default Product;

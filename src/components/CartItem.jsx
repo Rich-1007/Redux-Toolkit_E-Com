@@ -1,6 +1,8 @@
-import React from "react";
+
+
 import { MdOutlineDeleteForever } from "react-icons/md";
 import { useDispatch } from "react-redux";
+
 import { remove } from "../Redux/slices/CartSlice";
 import { toast } from "react-hot-toast";
 
@@ -24,7 +26,8 @@ const CartItem = ({ item, itemIndex }) => {
           <h1>{item.description}</h1>
           <div>
             <p>{item.price}</p>
-            <div onClick={removeFromCart}>
+            <div 
+            onClick={removeFromCart}>
               <MdOutlineDeleteForever />
             </div>
           </div>
