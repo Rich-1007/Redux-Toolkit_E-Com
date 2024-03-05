@@ -15,13 +15,15 @@ const CartItem = ({ item, itemIndex }) => {
   };
 
   return (
-    <div>
+    <div className="  flex flex-col items-center justify-center 
+    transition-shadow hover:shadow-2xl hover:shadow-black/100 ease-in gap-3 p-4 mt-10 ml-5 rounded-xl"
+    >
       <div>
         <div>
           <img src={item.image} />
         </div>
 
-        <div>
+        <div >
           <h1>{item.title}</h1>
           <h1>{item.description}</h1>
           <div>
