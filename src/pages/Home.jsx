@@ -13,6 +13,7 @@ const Home = () => {
     try {
       const res = await fetch(API_URL);
       const data = await res.json();
+      console.log(data);
 
       setPosts(data);
     } catch (error) {
