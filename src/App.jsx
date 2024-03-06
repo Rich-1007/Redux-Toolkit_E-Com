@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/cart" element={<Cart />} />
       </Routes>
       <div className="bottom-0 relative">
-        <Footer />
       </div>
     </div>
   );

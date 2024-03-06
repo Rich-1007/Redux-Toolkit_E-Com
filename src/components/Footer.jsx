@@ -4,7 +4,7 @@ import React from 'react';
 export const Footer = () => {
   const handleRedirect = () => {
     window.open(
-      "https://example.comhttps://www.linkedin.com/in/hricheak-ghosh/",
+      "https://www.linkedin.com/in/hricheak-ghosh/",
       "_blank"
     );
   };
