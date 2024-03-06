@@ -10,7 +10,7 @@ export const Footer = () => {
   };
 
   return (
-    <div className='bg-slate-600 justify-center text-white items-center flex min-h-20 '> 
+    <div className=' bg-slate-600 justify-center text-white items-center flex min-h-20 '> 
       Redux Toolkit Example Created by&nbsp;
       <button className=' text-green-500 ' onClick={handleRedirect }> Hricheak Ghosh</button>
     </div>

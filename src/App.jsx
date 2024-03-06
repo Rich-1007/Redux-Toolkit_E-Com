@@ -3,11 +3,11 @@ import Navbar from "./components/Navbar";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import{ Footer } from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen ">
       <div className="bg-slate-900">
         <Navbar />
       </div>
@@ -15,8 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-      <div>
-      <Footer />
+      <div className="bottom-0 relative">
+        <Footer />
       </div>
     </div>
   );
