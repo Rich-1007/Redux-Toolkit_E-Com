@@ -32,7 +32,7 @@ const Cart = () => {
             </div>
 
             <div>
-              <p>Total Amount: ${totalAmount}</p>
+              <p>Total Amount: ${Math.floor(totalAmount)}</p>
               <button>CheckOut Now</button>
             </div>
           </div>
