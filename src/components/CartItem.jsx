@@ -22,7 +22,7 @@ const CartItem = ({ item, itemIndex }) => {
           <div className="h-[180px] ">
             <img className="h-full w-full" src={item.image} />
           </div>
-  
+
           <div className="flex flex-col justify-between py-3">
             <div className="space-y-1">
               <h1 className="text-gray-700 font-semibold text-sm text-left truncate w-40 mt-1">
@@ -32,6 +32,7 @@ const CartItem = ({ item, itemIndex }) => {
                 {item.description}
               </h1>
             </div>
+      <hr />
             <div className="flex justify-between gap-12 items-center w-full mt-5 ">
               <p className="text-green-500 font-semibold">{item.price}</p>
               <div onClick={removeFromCart} className="">
@@ -40,12 +41,9 @@ const CartItem = ({ item, itemIndex }) => {
             </div>
           </div>
         </div>
-  
       </div>
-    
-
     </div>
-    );
+  );
 };
 
 export default CartItem;
