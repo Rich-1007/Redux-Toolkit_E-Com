@@ -49,11 +49,11 @@ const Cart = () => {
           </div>
         </div>
       ) : (
-        <div>
-          <h1>Cart Empty</h1>
+        <div className="flex flex-col  min-h-40 justify-center items-center">
+          <h1 className="font-semibold">Cart Empty</h1>
           <Link to={"/"}>
             <div>
-              <button>Shop Now</button>
+              <button className="mt-8 rounded-full bg-gray-400 min-h-9 text-white w-40 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">Shop Now</button>
             </div>
           </Link>
         </div>

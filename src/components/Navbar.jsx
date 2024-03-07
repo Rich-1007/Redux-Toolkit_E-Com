@@ -1,6 +1,8 @@
 import { FaCartShopping } from "react-icons/fa6";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import { SiWoocommerce } from "react-icons/si";
+
 
 const Navbar = () => {
   const { cart } = useSelector((state) => state);
@@ -9,8 +11,9 @@ const Navbar = () => {
     <div>
       <nav className="flex  justify-between items-center h-20 max-w-6xl mx-auto">
         <NavLink to="/">
-          <div className="ml-5">
-            <img src="src/assets/Logo-png-bg.png" className="h-12" />
+          <div className="ml-5 flex justify-center items-center w-40 h-12 ">
+          <div className="  w-full text-gray-300 h-full" >E-commerce Shopping Cart</div>
+            
           </div>
         </NavLink>
 
