@@ -6,7 +6,7 @@ import Cart from "./pages/Cart";
 
 function App() {
   return (
-    <div className="min-h-screen ">
+    <div >
       <div className="bg-slate-900">
         <Navbar />
       </div>
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-      <div className="bottom-0 relative">
+      <div >
       </div>
     </div>
   );
