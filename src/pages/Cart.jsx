@@ -3,13 +3,10 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import CartItem from "../components/CartItem";
 
-
-
 const Cart = () => {
   const { cart } = useSelector((state) => state);
 
   const [totalAmount, setTotalAmount] = useState(0);
-
 
   useEffect(() => {
     setTotalAmount(cart.reduce((acc, curr) => acc + curr.price, 0));
@@ -25,7 +22,7 @@ const Cart = () => {
             })}
           </div>
 
-            <hr />
+          <hr />
           <div className="flex  justify-center ">
             <div>
               <div>
@@ -56,7 +53,9 @@ const Cart = () => {
           <h1 className="text-3xl font-semibold">Cart Empty</h1>
           <Link to={"/"}>
             <div>
-              <button className="mt-16 rounded-full bg-gray-400 min-h-9 text-white w-40 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">Shop Now</button>
+              <button className="mt-16 rounded-full bg-gray-400 min-h-9 text-white w-40 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+                Shop Now
+              </button>
             </div>
           </Link>
         </div>
