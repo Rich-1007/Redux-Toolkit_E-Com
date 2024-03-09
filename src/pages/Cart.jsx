@@ -28,11 +28,11 @@ const Cart = () => {
               <div>
                 <div>Your Cart</div>
                 <div className="text-4xl text-gray-500">Summary</div>
-                <p>
-                  <span className="font-medium">
-                    Total Items: {cart.length}
-                  </span>
-                </p>
+                
+
+
+
+                
               </div>
 
               <div>
