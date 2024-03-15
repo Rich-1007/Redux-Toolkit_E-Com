@@ -32,7 +32,7 @@ const CartItem = ({ item, itemIndex }) => {
                 {item.description}
               </h1>
             </div>
-      <hr />
+            <hr />
             <div className="flex justify-between gap-12 items-center w-full mt-5 ">
               <p className="text-green-500 font-semibold">{item.price}</p>
               <div onClick={removeFromCart} className="">

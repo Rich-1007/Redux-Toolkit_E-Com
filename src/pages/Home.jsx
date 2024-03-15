@@ -12,6 +12,7 @@ const Home = () => {
 
   async function fetchProductData() {
     setLoading(true);
+
     try {
       const res = await fetch(API_URL);
       const data = await res.json();
@@ -47,10 +48,9 @@ const Home = () => {
   };
 
   const sortHighToLow = () => {
-
     const arr = [...posts];
     const res = arr.sort((item1, item2) => item2.price - item1.price);
-    
+
     console.log(res);
     setFilteredProducts(res);
   };
