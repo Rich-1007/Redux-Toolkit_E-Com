@@ -18,6 +18,8 @@ const Navbar = () => {
         </NavLink>
 
         <div className="flex items-center font-medium text-slate-100 mr-5 space-x-6">
+          <p>Login</p>
+          <p>SignUp</p>
           <NavLink to="/">
             <p>Home</p>
           </NavLink>
