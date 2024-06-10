@@ -1,0 +1,694 @@
+[
+  { "title": "Grocery", "icon": "../src/assets/Icons/download-1.jpg" },
+  { "title": "Mobiles", "icon": "../src/assets/Icons/download-2.jpg" },
+  {
+    "title": "Fashion",
+    "icon": "src/assets/Icons/download-3.jpg",
+    "subcategories": [
+      {
+        "title": "Men's Top Wear",
+        "subcategories": [
+          { "title": "Men's T-Shirts" },
+          { "title": "Men's Casual Shirts" },
+          { "title": "Men's Formal Shirts" },
+          { "title": "Men's Kurtas" },
+          { "title": "Men's Ethnic Sets" },
+          { "title": "Men's Blazers" },
+          { "title": "Men's Raincoat" },
+          { "title": "Men's Windcheaters" },
+          { "title": "Men's Suit" },
+          { "title": "Men's Fabrics" }
+        ]
+      },
+      { "title": "Men's Bottom Wear" },
+      {
+        "title": "Women Ethnic",
+        "subcategories": [
+          { "title": "Women Sarees" },
+          { "title": "Women Kurtas & Kurtis" },
+          { "title": "Women Kurta Sets & Salwar Suits" },
+          { "title": "Ethnic Dresses" },
+          { "title": "Women Dress Materials" },
+          { "title": "Women Gowns" },
+          { "title": "Women Lehenga Cholis" },
+          { "title": "Women Leggings & Patialas" },
+          { "title": "Women Palazzos & Shararas" },
+          { "title": "Women Blouse" },
+          { "title": "Women Dupatta" }
+        ]
+      },
+      {
+        "title": "Men Footwear",
+        "subcategories": [
+          { "title": "Men's Sports Shoes" },
+          { "title": "Men's Casual Shoes" },
+          { "title": "Men's Sandals & Floaters" },
+          { "title": "Men's Slippers & Flip Flops" },
+          { "title": "Men's Formal Shoes" },
+          { "title": "Men's Ethnic Shoes" },
+          { "title": "Shoe Care" }
+        ]
+      },
+      {
+        "title": "Women Footwear",
+        "subcategories": [
+          { "title": "Boys Innerwear" },
+          { "title": "Women Flats" },
+          { "title": "Women Heels" },
+          { "title": "Women Wedges" },
+          { "title": "Women Slipper Flip Flops" },
+          { "title": "Women Casual Shoes" },
+          { "title": "Women Sports Shoes" },
+          { "title": "Women Ballerinas" },
+          { "title": "Women Ethnic Shoes" },
+          { "title": "Women Sneakers" },
+          { "title": "Women Walking Shoes" },
+          { "title": "Women Boots" }
+        ]
+      },
+      {
+        "title": "Watches and Accessories",
+        "subcategories": [
+          { "title": "Boys Innerwear" },
+          { "title": "Men & Women Watches" },
+          { "title": "Men & Women Sunglasses" },
+          { "title": "Wallets" },
+          { "title": "Men & Women Belts" },
+          { "title": "Men Fashion Jewellery" },
+          { "title": "Precious Articles" },
+          { "title": "Kids Accessories" },
+          { "title": "Women Fashion Jewellery" }
+        ]
+      },
+      {
+        "title": "Women Western",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Women Tops" },
+          { "title": "Women Dresses" },
+          { "title": "Women T-shirts & Polo T-shirts" },
+          { "title": "Women Jeans" },
+          { "title": "Women Nighties & Night Dresses" },
+          { "title": "Women Nightsuit" },
+          { "title": "Women Track Pants" },
+          { "title": "Women Trouser" },
+          { "title": "Women Jumpsuit" },
+          { "title": "Women Shapewear" },
+          { "title": "Women Sports Bra" }
+        ]
+      },
+      {
+        "title": "Bags, Suitcases & Luggage",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Bags & Backpacks" },
+          { "title": "Suitcases & Trolleys" },
+          { "title": "Dufflebags" },
+          { "title": "Rucksacks" },
+          { "title": "Handbags" },
+          { "title": "Slingbags" },
+          { "title": "Women's Clutches & Wallets" },
+          { "title": "Messenger Bags" },
+          { "title": "Travel Accessories" }
+        ]
+      },
+      {
+        "title": "Kids",
+        "subcategories": [
+          { "title": "Boys Innerwear" },
+          { "title": "All" },
+          { "title": "Girls Dresses" },
+          { "title": "Boys & Girls Tshirts" },
+          { "title": "Boys & Girls Combosets" },
+          { "title": "Boys & Girls Ethnic Wear" },
+          { "title": "Boys & Girls Jeans" },
+          { "title": "Boys & Girls Shorts" },
+          { "title": "Boys & Girls Trackpants" },
+          { "title": "Boys & Girls Innerwear" },
+          { "title": "Infant Wear" },
+          { "title": "Kids Slipper Flip Flops" },
+          { "title": "Kids Sports Shoes" }
+        ]
+      },
+      {
+        "title": "Essentials",
+        "subcategories": [
+          { "title": "Boys Innerwear" },
+          { "title": "Men's Briefs & Trunks" },
+          { "title": "Men's Vests" },
+          { "title": "Men's Boxers" },
+          { "title": "Women Lingerie Sets" },
+          { "title": "Women Bra" },
+          { "title": "Women Panty" },
+          { "title": "Women Sarees" },
+          { "title": "Women Kurtas" },
+          { "title": "Women Kurta Sets & Salwar Suits" },
+          { "title": "Boys Innerwear" },
+          { "title": "Boys Innerwear" },
+          { "title": "Girls Innerwear" },
+          { "title": "Women Slipper Flip Flops" }
+        ]
+      },
+      {
+        "title": "Winter",
+        "subcategories": [
+          { "title": "Boys Innerwear" },
+          { "title": "All" },
+          { "title": "Men's Jackets" },
+          { "title": "Men's Sweatshirts" },
+          { "title": "Men's Sweaters" },
+          { "title": "Men's Thermals" },
+          { "title": "Women's Jackets" },
+          { "title": "Women's Sweatshirts" },
+          { "title": "Women's Sweaters & Cardigans" },
+          { "title": "Women's Shrugs" },
+          { "title": "Kids SweatShirts" },
+          { "title": "Women Kurtas" },
+          { "title": "Boys Innerwear" },
+          { "title": "Kids Jackets" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Electronics",
+    "icon": "src/assets/Icons/download.jpg",
+    "subcategories": [
+      {
+        "title": "Audio",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Bluetooth Headphones" },
+          { "title": "Wired Headphones" },
+          { "title": "True Wireless Earbuds" },
+          { "title": "Bluetooth Speakers" },
+          { "title": "Soundbars" },
+          { "title": "Home Theatres" },
+          { "title": "TV Streaming Device" },
+          { "title": "Remote Control" },
+          { "title": "DTH Set top box" },
+          { "title": "Headphones Pouch & Case Covers" }
+        ]
+      },
+      { "title": "Electronics GST Store" },
+      {
+        "title": "Camera & Accessories",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "DSLR & Mirrorless" },
+          { "title": "Sports & action" },
+          { "title": "Point & Shoot" },
+          { "title": "Instant Cameras" },
+          { "title": "Camcorders" },
+          { "title": "Camera tripods" },
+          { "title": "Camera Lenses" },
+          { "title": "Drone" },
+          { "title": "Flashes" },
+          { "title": "Gimbals" },
+          { "title": "Binoculars" },
+          { "title": "Other Camera Accessories" }
+        ]
+      },
+      {
+        "title": "Computer Peripherals",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Printers" },
+          { "title": "Monitors" },
+          { "title": "Projectors" },
+          { "title": "Portable Projectors" },
+          { "title": "Ink Cartridges" },
+          { "title": "Ink Bottles" },
+          { "title": "Receipt Printers" },
+          { "title": "Lamination Machines" },
+          { "title": "Note Counting Machines" },
+          { "title": "Barcode Scanners" },
+          { "title": "Currency Detectors" }
+        ]
+      },
+      {
+        "title": "Gaming",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Gaming Consoles" },
+          { "title": "Gaming Mouse" },
+          { "title": "Gaming Keyboards" },
+          { "title": "Gamepads" },
+          { "title": "Games" },
+          { "title": "Accessory Kits" },
+          { "title": "Gaming Accessories Combo" },
+          { "title": "Gaming Mousepads" },
+          { "title": "Membership Cards" },
+          { "title": "Controllers" },
+          { "title": "Other Gaming Accessories" },
+          { "title": "Gaming Components" }
+        ]
+      },
+      {
+        "title": "Health & Personal Care",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Trimmers" },
+          { "title": "Shavers" },
+          { "title": "Hair Straighteners" },
+          { "title": "Hair Dryers" },
+          { "title": "Epilators" },
+          { "title": "Glucometers And Accessories" },
+          { "title": "Blood Pressure Monitors" },
+          { "title": "Digital Thermometers" },
+          { "title": "Weighing Scales" },
+          { "title": "Massagers" },
+          { "title": "Nebulizers" },
+          { "title": "Vaporizers" }
+        ]
+      },
+      {
+        "title": "Laptop Accessories",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Mouse" },
+          { "title": "Laptop Keyboards" },
+          { "title": "Router" },
+          { "title": "Data Cards" },
+          { "title": "UPS" },
+          { "title": "USB Gadgets" },
+          { "title": "Security Software" },
+          { "title": "Laptop Battery" },
+          { "title": "Laptop Adapter" },
+          { "title": "Wireless USB Adapter" },
+          { "title": "Processor" },
+          { "title": "Other Accessories" }
+        ]
+      },
+      {
+        "title": "Laptop and Desktop",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Laptops" },
+          { "title": "Gaming Laptops" },
+          { "title": "Desktop PCs" },
+          { "title": "All In One PCs" },
+          { "title": "Mini PCs" },
+          { "title": "Tower PCs" },
+          { "title": "PC Finder" }
+        ]
+      },
+      {
+        "title": "Mobile Accessory",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Plain Cases" },
+          { "title": "Designer Cases" },
+          { "title": "Screen Guards" },
+          { "title": "Camera Lens Protectors" },
+          { "title": "Tablet Accessories" },
+          { "title": "MobileCable" },
+          { "title": "MobileCharging Mobile Charger" },
+          { "title": "Mobile Pouches" },
+          { "title": "MobileFlash" },
+          { "title": "Mobile Holder" },
+          { "title": "MobileUSBGadget" },
+          { "title": "Mobiles Accessories Combos" }
+        ]
+      },
+      {
+        "title": "Powerbank",
+        "subcategories": [{ "title": "All" }, { "title": "Powerbank" }]
+      },
+      {
+        "title": "Smart Home automation",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Smart Assistants" },
+          { "title": "Smart Lights" },
+          { "title": "Smart Cameras" },
+          { "title": "Smart Switches" },
+          { "title": "Smart Door locks" },
+          { "title": "Sensors & Alarms" }
+        ]
+      },
+      {
+        "title": "Smart Wearables",
+        "subcategories": [
+          { "title": "Smart Bands" },
+          { "title": "Smart Glasses" }
+        ]
+      },
+      {
+        "title": "Storage",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Mobile MemoryCard" },
+          { "title": "ComputerStoragePendrive" },
+          { "title": "MobileStoragePendrive" },
+          { "title": "External Hard Drive" },
+          { "title": "Internal Hard Drive" }
+        ]
+      },
+      {
+        "title": "Tablets",
+        "subcategories": [
+          { "title": "All" },
+          {
+            "title": "Tablets With Call Facility"
+          },
+          {
+            "title": "Tablets Without Call Facility"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Home Furnishings",
+    "icon": "src/assets/Icons/download-6.jpg",
+    "subcategories": [
+      {
+        "title": "Home Furnishings",
+        "subcategories": [
+          { "title": "All" },
+          { "title": "Bed Linens" },
+          { "title": "Bedsheets" },
+          { "title": "Blankets" },
+          { "title": "Curtains & Accessories" },
+          { "title": "Bath linen" },
+          { "title": "Floor coverings" },
+          { "title": "Covers & protectors" },
+          { "title": "Cushions & Pillows" },
+          { "title": "Kitchen Linen Sets" },
+          { "title": "Table Linen Sets" },
+          { "title": "Sofa & curtain fabrics" },
+          { "title": "Branded Collections" }
+        ]
+      },
+      {
+        "title": "Furniture Studio"
+      },
+      {
+        "title": "Living Room Furniture",
+        "subcategories": [
+          { "title": "Sofas Sets & Sectionals" },
+          { "title": "TV Units" },
+          { "title": "Dining Sets" },
+          { "title": "Sofa Beds" },
+          { "title": "Recliners" },
+          { "title": "Living Room Chairs" },
+          { "title": "Cabinet & Drawers" },
+          { "title": "Bookshelves" },
+          { "title": "Shoe Racks" }
+        ]
+      },
+      {
+        "title": "Kitchen & Dining"
+      },
+      {
+        "title": "Bedroom Furniture",
+        "subcategories": [
+          { "title": "Mattresses" },
+          { "title": "Beds" },
+          { "title": "Wardrobes" },
+          { "title": "Side Tables" },
+          { "title": "TV Units" },
+          { "title": "Office Tables" },
+          { "title": "Office Chairs" },
+          { "title": "Bookshelves" },
+          { "title": "Bar Cabinets" },
+          { "title": "Bar Stools" },
+          { "title": "Rocking Chairs" },
+          { "title": "Benches" }
+        ]
+      },
+      { "title": "Space Saving Furniture" },
+      {
+        "title": "Home Decor",
+        "subcategories": [
+          { "title": "Lightings" },
+          { "title": "Stickers & Wallpapers" },
+          { "title": "Paintings & Posters" },
+          { "title": "Clocks" },
+          { "title": "Showpieces & Decoratives" },
+          { "title": "Wall Decor" },
+          { "title": "Flowers & Vases" },
+          { "title": "Home Fragrances" },
+          { "title": "Windchimes & Dream catcher" },
+          { "title": "Photo frames & Albums" },
+          { "title": "Diwali, Candles & Holders" },
+          { "title": "Festive & Gifting" }
+        ]
+      },
+      {
+        "title": "Tools & Utility",
+        "subcategories": [
+          { "title": "Hand tools" },
+          { "title": "Power Tools" },
+          { "title": "Measuring Tools" },
+          { "title": "Home Storage & Organizers" },
+          { "title": "Umbrellas" },
+          { "title": "Appliance Trolley & Stands" },
+          { "title": "Cloth Dryer Stand" },
+          { "title": "Appliance Filter & Cartridges" },
+          { "title": "Laundry Organization" },
+          { "title": "Lock & Security" },
+          { "title": "Fire & Personal Safety" },
+          { "title": "Paint Supplies & Equipments" }
+        ]
+      },
+      {
+        "title": "Work Space Furniture"
+      },
+      {
+        "title": "Kids Furniture"
+      },
+      {
+        "title": "Lightings & Electricals",
+        "subcategories": [
+          { "title": "Bulbs" },
+          { "title": "Emergency Lights" },
+          { "title": "Torches" },
+          { "title": "Tubelights" },
+          { "title": "Extension Cords" },
+          { "title": "Outdoor Lamps" },
+          { "title": "Batteries" },
+          { "title": "ElectricalWire" },
+          { "title": "ElectricalSocket" },
+          { "title": "Electric DoorBell" },
+          { "title": "Solar Lights, Panels & Batteries" },
+          { "title": "Electrical Hardware" }
+        ]
+      },
+      {
+        "title": "Cleaning & Bath",
+        "subcategories": [
+          { "title": "Mops" },
+          { "title": "Cleaning Supplies" },
+          { "title": "House Hold supplies" },
+          { "title": "Air Fresheners" },
+          { "title": "Cleaning Gloves" },
+          { "title": "Liquid Detergents" },
+          { "title": "Taps & Faucet" },
+          { "title": "Toothbrush holder" },
+          { "title": "Bathroom Rack & Shelves" },
+          { "title": "Shower Heads" },
+          { "title": "Bath & Kitchen Fittings" },
+          { "title": "Bathroom Accessories" }
+        ]
+      },
+      {
+        "title": "Pet & Gardening",
+        "subcategories": [
+          { "title": "Plant Seeds" },
+          { "title": "Soil Manure" },
+          { "title": "Pots & Planters" },
+          { "title": "Plant & Planters" },
+          { "title": "Garden tool set" },
+          { "title": "Watering Equipments" },
+          { "title": "Dog Essentials" },
+          { "title": "Cat Essentials" },
+          { "title": "Fish & Aquatic" },
+          { "title": "Pet Grooming & Hygiene" },
+          { "title": "Pet Toys" },
+          { "title": "Pet Health & Safety" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Appliances",
+    "icon": "src/assets/Icons/download-5.jpg"
+  },
+  {
+    "title": "Travel & Hotel",
+    "icon": "src/assets/Icons/download-8.jpg"
+  },
+  {
+    "title": "Toys & Baby",
+    "icon": "src/assets/Icons/download-7.jpg",
+    "subcategories": [
+      {
+        "title": "Beauty & Personal Care",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Bath & Oral Care" },
+          { "title": "Personal Hygiene" },
+          { "title": "Eye Makeup" },
+          { "title": "Face Makeup" },
+          { "title": "Lip Makeup" },
+          { "title": "Hair Care" },
+          { "title": "Bath Essentials" },
+          { "title": "Women's Personal Hygiene" },
+          { "title": "Body & Skin Care" },
+          { "title": "Top Brand Deals" }
+        ]
+      },
+      {
+        "title": "Men's Grooming",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Face Washes" },
+          { "title": "Beard Oils" },
+          { "title": "Hair Styling" },
+          { "title": "Shaving Essentials" },
+          { "title": "Aftershave" },
+          { "title": "Face Creams & Face Packs" },
+          { "title": "Soaps & Bodywashes" },
+          { "title": "Men's Grooming Combos" },
+          { "title": "Sexual Wellness" }
+        ]
+      },
+      {
+        "title": "Food & Drinks",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Baby Diapers" },
+          { "title": "Baby Wipes" },
+          { "title": "Baby Bath & Grooming" },
+          { "title": "Baby Gift Sets & Combo" },
+          { "title": "Baby Medical & Health Care" },
+          { "title": "Nursing & Breast Feeding" },
+          { "title": "Feeding Bottles, Utensils & Accessories" },
+          { "title": "Baby Food" },
+          { "title": "Baby Bedding" },
+          { "title": "Baby Gear" },
+          { "title": "Top Brand Deals" }
+        ]
+      },
+      {
+        "title": "Nutrition & Health Care",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Badminton" },
+          { "title": "Cricket" },
+          { "title": "Cycling" },
+          { "title": "Football" },
+          { "title": "Fitness Equipments" },
+          { "title": "Supports" },
+          { "title": "Shakers & Sippers" },
+          { "title": "Gym Gloves" },
+          { "title": "Dumbbells" },
+          { "title": "Yoga" },
+          { "title": "Top Brand Deals" }
+        ]
+      },
+      {
+        "title": "Baby Care",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Test prep" },
+          { "title": "Academics" },
+          { "title": "Literature & Fiction" },
+          { "title": "Non Fiction" },
+          { "title": "Young Readers" },
+          { "title": "Audio Books" }
+        ]
+      },
+      {
+        "title": "Toys & School Supplies",
+        "subcategories": [
+          { "title": "Musical Instruments" },
+          { "title": "Music & TV Shows" },
+          { "title": "Acoustic Guitars" },
+          { "title": "Keys and Synthesizer" },
+          { "title": "Microphones" },
+          { "title": "Studio and Stage equipment" },
+          { "title": "String Instruments" },
+          { "title": "Indian instruments" },
+          { "title": "Wind instruments" },
+          { "title": "Musical keyboards" }
+        ]
+      },
+      {
+        "title": "Sports & Fitness",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Pens & Gift Sets" },
+          { "title": "Notebooks & Diaries" },
+          { "title": "Art Supplies" },
+          { "title": "Calculators" },
+          { "title": "Keychains" },
+          { "title": "Card Holders" },
+          { "title": "Desk Organizers" },
+          { "title": "Office Supplies" },
+          { "title": "Office Equipments" },
+          { "title": "Party Supplies" },
+          { "title": "Top Brand Deals" }
+        ]
+      },
+      {
+        "title": "Books",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Bike Essentials" },
+          { "title": "Car & Bike Covers" },
+          { "title": "CarAirFreshener" },
+          { "title": "CarBluetooth Device" },
+          { "title": "CarLubricant" },
+          { "title": "CarMediaPlayer" },
+          { "title": "Helmet" },
+          { "title": "Vehicle Washing & Cleaning Products" },
+          { "title": "Tyres" }
+        ]
+      },
+      {
+        "title": "Music",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Masks" },
+          { "title": "Sanitizers" },
+          { "title": "Hand Wash" },
+          { "title": "Gloves" },
+          { "title": "PPE Kits" },
+          { "title": "Face Shields" },
+          { "title": "UV Sterilizer Box" },
+          { "title": "Safety Goggles" },
+          { "title": "Vitamins for Immunity" }
+        ]
+      },
+      { "title": "Stationery & Office Supplies" },
+      {
+        "title": "Auto Accessories",
+        "subcategories": [
+          { "title": "View All" },
+          { "title": "Pens & Gift Sets" },
+          { "title": "Notebooks & Diaries" },
+          { "title": "Art Supplies" },
+          { "title": "Calculators" },
+          { "title": "Keychains" },
+          { "title": "Card Holders" },
+          { "title": "Desk Organizers" },
+          { "title": "Office Supplies" },
+          { "title": "Office Equipments" },
+          { "title": "Party Supplies" },
+          { "title": "Top Brand Deals" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cars & Bikes",
+    "icon": "src/assets/Icons/download-9.jpg",
+    "subcategories": [
+      { "title": "Petrol Vehicles" },
+      { "title": "Electric Vehicles" }
+    ]
+  }
+]

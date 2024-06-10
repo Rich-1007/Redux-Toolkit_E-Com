@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { add, remove } from "../Redux/slices/CartSlice";
 
 const Product = ({ post }) => {
+
+  
   const { cart } = useSelector((store) => store);
   const dispatch = useDispatch();
 
