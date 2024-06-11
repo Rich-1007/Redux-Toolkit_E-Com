@@ -5,18 +5,18 @@ import Slider from "./Slider ";
 import Hero from "./Hero";
 import HomePage from "./HomePage";
 
+import React from 'react'
+
 const Main = () => {
   return (
-    <>
-      <div className="bg-gray-200 ">
+    <div className="bg-gray-200 ">
         <Navbar />
         <Categories />
         <Slider />
         <Hero />
         <HomePage />
-      </div>
-    </>
-  );
-};
+    </div>
+  )
+}
 
-export default Main;
+export default Main
