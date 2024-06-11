@@ -2,17 +2,18 @@ import { RouterProvider, Routes, createBrowserRouter } from "react-router-dom";
 // import { Route } from "react-router-dom";
 // import Home from "./pages/Home";
 import Cart from "./pages/Cart";
+import Main from "./Components/Main";
 // import Navbar from "./Components/Navbar";
 // import Categories from "./Components/Categories";
 // import Slider from "./Components/Slider ";
 // import Hero from "./Components/Hero";
 // import HomePage from "./Components/HomePage";
-import Mainpage from "./Components/Mainpage"
+
 
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Mainpage />,
+    element: <Main />,
   },
   {
     path: "/cart",
