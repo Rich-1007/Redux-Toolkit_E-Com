@@ -5,8 +5,8 @@ import { Provider } from "react-redux";
 import App from "./App.jsx";
 import "./index.css";
 import { store } from "./Redux/store.jsx";
-import { Toaster } from "react-hot-toast";
-import Mainpage from "./Components/Mainpage.jsx";
+// import { Toaster } from "react-hot-toast";
+// import Mainpage from "./Components/Mainpage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   
