@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 // import Slider from "./Components/Slider ";
 // import Hero from "./Components/Hero";
 // import HomePage from "./Components/HomePage";
-import Mainpage from "./Components/Mainpage";
+import Mainpage from "./Components/Mainpage"
 
 const appRouter = createBrowserRouter([
   {

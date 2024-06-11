@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { IoMdStarOutline } from "react-icons/io";
+// import { IoMdStarOutline } from "react-icons/io";
 import CartItems from "./CartItems";
 
 const HomePage = () => {

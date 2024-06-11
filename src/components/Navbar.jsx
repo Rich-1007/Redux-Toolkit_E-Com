@@ -5,7 +5,7 @@ import categoriesData from "../../data/allCategories.json";
 
 import logo from "/assets/Icons/Flipkart-Logo.png";
 import { Link, NavLink } from "react-router-dom";
-import Cart from "../pages/Cart";
+// import Cart from "../pages/Cart";
 
 const Navbar = () => {
   const subCats = [];
